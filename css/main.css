@@ -2,12 +2,41 @@
    Author's custom styles
    ========================================================================== */
 
+.nav-pills {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e47911;
+}
 
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #2ecc71;
+}
 
+.nav a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  /*font-family: 'Shift', sans-serif;*/
+  /*padding: 14px 14px;*/
+  /*text-transform: uppercase;*/
+  border: 2px solid black;
+  border-radius: 0 !important;
+  margin-right: 15px;
+}
 
-
-
+.ptext {
+  color: black;
+  font-size: 18px;
+}
 
 
 
