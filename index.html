@@ -17,37 +17,67 @@
     </head>
     <body>
     <!-- <div class="jumbotron" style="background-color: #e47911; color: white; position: relative;"> -->
-      <header class="jumbotron" style="background: url(img/header_new.png) no-repeat center center;/* background-size: 100% 100%; */ position: relative;height: 250px;background-size: cover; margin: 0;" >
+      <header class="jumbotron" style="background: url(img/header_new.png) no-repeat center center;/* background-size: 100% 100%; */position: relative;height: 30%;background-size: cover;margin: 0;min-height: 300px;" >
       <div class="container">
-        <!-- <h1><a href="index.html" >AWS Bosnia User Group</a></h1> -->
         <h1>AWS Bosnia User Group</h1>
-        <div class="container" style="position: absolute; bottom:0;">
-          <ul class="nav nav-pills">
+        <div class="container" style="position: absolute;bottom:0;padding-left: 0;">
+          <!-- <ul class="nav nav-pills">
             <li><a href="#blog">Blog</a></li>
             <li><a href="#about">About us</a></li>
             <li><a href="#join">Join us</a></li>
             <li><a href="#sponsors">Our sponsors</a></li>
-          </ul>
+          </ul> -->
+
+            <!-- <div class="col-md-12"> -->
+            <!--   <nav class="navbar" role="banner">
+                <div class="container-fluid">
+                  <div class="navbar-header nav nav-pills">
+                    <a href="#blog" class="navbar-brand">Blog</a>
+                    <a href="#about" class="navbar-brand">About us</a>
+                    <a href="#join" class="navbar-brand">Join us</a>
+                    <a href="#sponsors" class="navbar-brand">Our sponsors</a>
+                  </div>
+                </div>
+              </nav> -->
+            <!-- </div> -->
+         <nav class="navbar">
+              <ul class="nav navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#join">Join us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sponsors">Our sponsors</a>
+                </li>
+              </ul>
+            </nav>
         </div>
       </div>
     </header>
-    <div id="blog" class="container" style=" height: 250px; background-color: #f0f0f0; padding-top: 35px;">
-      <div style="width: 50%; float: left;">
-        <p class="ptext">Pridružite nam se na sljedećem meetup -u koji će se održati na
-        Fakultetu informacijskih tehnologija u Mostaru.
-      </p>
-       <p class="ptext">Očekuju Vas super predavanja i odlično druženje.</p>
-       <p class="ptext">Obavezno napravite <strong>RSVP</strong> na našoj <strong>Meetup</strong> stranici.</p>
-      </div>
-      <div style="float: right; margin-right: auto; margin-left: auto; width: 50%;">
-        <a href="https://www.meetup.com/AWS-User-Group-BiH/events/231601587/">
-          <img src="img/rsvp.jpg" alt="rsvp" height="150" width="150" style="display: block;">
-        </a>
+    <div class="jumbotron" style="background-color: #C2CEDB;">
+      <div id="blog" class="container">
+        <div class="col-md-6" style="float: left; padding-left: 0;">
+          <p class="ptext">Pridružite nam se na sljedećem meetup -u koji će se održati na
+            Fakultetu informacijskih tehnologija u Mostaru.
+          </p>
+           <p class="ptext">Očekuju Vas super predavanja i odlično druženje.</p>
+           <p class="ptext">Obavezno napravite <strong>RSVP</strong> na našoj <strong>Meetup</strong> stranici.</p>
+        </div>
+        <div class="col-md-6 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" style="float: right; margin-left: auto;margin-right: auto;">
+          <a href="https://www.meetup.com/AWS-User-Group-BiH/events/231601587/">
+            <img src="img/rsvp1.png" alt="rsvp" height="150" width="150" style="display: block;">
+          </a>
+        </div>
       </div>
     </div>
     <div id="about" class="container" style="height: 500px;"></div>
     <div id="join" class="container" style="height: 500px;"></div>
-    <footer id="sponsors" style="background-color: #242729;color: white; width: 100%; height:50%;">
+    <footer id="sponsors" style="background-color: #0f1721;color: white; width: 100%; height:50%;">
       <div class="container">
         <p style="margin-top: 20px;">Ako želite da pomognete radu AWS Bosnia User Group pridružite se našim sponzorima, koji pomažu u radu i organizaciji naših meetupa.</p>
         <br>
@@ -83,7 +113,7 @@
            <a href="http://www.fit.ba">
              <img src="img/fit.png" alt="Fit" height="150" width="150" style="display: block;margin-left: auto;margin-right: auto;">
            </a>
-          <div style="margin-top: 15px; text-align: center;width: 90%;">
+          <div style="margin-top: 15px; text-align: center; width: 90%;">
             <a href="http://www.fit.ba" style="color: white;">Faculty of information technology</a>
             <label style="font-weight: normal;">Meetup host</label>
           </div>
