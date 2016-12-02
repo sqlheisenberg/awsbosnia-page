@@ -54,3 +54,22 @@
 .jumbotron {
   margin-bottom: 0 !important;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.content {
+    max-width: 450px;
+}
+.ts {
+    margin-top: 35px;
+}
+.error {
+    color: #c0392b;
+}
+.succeed {
+    color: #2c3e50;
+}
