@@ -70,7 +70,7 @@
       </div>
     </div>
     <div class="jumbotron" style="background-color: #FF9D00;">
-       <div id="about" class="container">
+       <div id="about" class="container" style="height: 740px;">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -81,34 +81,34 @@
             </ol>
            <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="img/pic1.jpg" alt="aws1">
-              <div class="carousel-caption">
-                <h3>Naslov1</h3>
-                <p>Text1</p>
+              <div class="item active">
+                <img src="img/pic1.jpg" alt="aws1">
+                <div class="carousel-caption">
+                  <h3>Naslov1</h3>
+                  <p>Text1</p>
+                </div>
               </div>
-            </div>
-            <div class="item">
-              <img src="img/pic2.jpg" alt="aws2">
-              <div class="carousel-caption">
-                <h3>Naslov2</h3>
-                <p>Text2</p>
+              <div class="item">
+                <img src="img/pic4.jpg" alt="aws2">
+                <div class="carousel-caption">
+                  <h3>Naslov2</h3>
+                  <p>Text2</p>
+                </div>
               </div>
-            </div>
-            <div class="item">
-              <img src="img/pic3.jpg" alt="aws3">
-              <div class="carousel-caption">
-                <h3>Naslov3</h3>
-                <p>Text3</p>
+              <div class="item">
+                <img src="img/pic3.jpg" alt="aws3">
+                <div class="carousel-caption">
+                  <h3>Naslov3</h3>
+                  <p>Text3</p>
+                </div>
               </div>
-            </div>
-            <div class="item">
-              <img src="img/pic4.jpg" alt="aws4">
-              <div class="carousel-caption">
-                <h3>Naslov4</h3>
-                <p>Text4</p>
+              <div class="item">
+                <img src="img/pic2.jpg" alt="aws4">
+                <div class="carousel-caption">
+                  <h3>Naslov4</h3>
+                  <p>Text4</p>
+                </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -117,18 +117,48 @@
       <div id="join" class="container">
          <p> Grupu možete podržati i pratiti njen rad na socijalnim mrežama, također pridružite nam se na našem #Slack kanalu kako bi diskutovali o temama koje se tiču AWS-a.</p>
         <br>
-        <div class="container content">
-          <form class="ts" id="reqForm">
-            <fieldset>
-              <legend>AWSUG Bosnia Slack Channel</legend>
-              <label for="email">Email</label>
-              <input type="email" name="email" placeholder="hello@example.com"
-                id="emailField">
-              <input class="button-primary" type="submit" value="JOIN">
-              <p class="title result">
-              </p>
-            </fieldset>
+        <div class="container">
+          <form id="reqForm">
+            <legend style="text-align: center;">AWSUG Bosnia Slack Channel</legend>
+            <!-- <div class="form-group"> -->
+              <div class="col-sm-6 col-sm-offset-3" style="text-align: center;">
+                <input class="form-control" type="email" name="email"
+                  placeholder="hello@example.com" id="emailField">
+                 <button type="submit" class="btn btn-default" style="margin-top: 10px;">Sign in</button>
+              </div>
+              <!-- <div class="col-sm-1 col-sm-offset-2"> -->
+
+              <!-- <div> -->
+            <!-- </div> -->
+            <p class="title result">
+            </p>
+          </div>
           </form>
+        </div>
+          <!-- <div class="container"> -->
+            <ul id="social-ul">
+              <li class="social-btn">
+                <a href="https://www.facebook.com/groups/awsbosnia/">
+                 <img src="img/facebook_32.png" alt="facebook" >
+                </a>
+              </li>
+              <li class="social-btn">
+                <a href="https://twitter.com/awsbosnia" class="social-btn">
+                 <img src="img/twitter_32.png" alt="twitter">
+                </a>
+              </li>
+              <li class="social-btn">
+                <a href="https://www.youtube.com/channel/UCG3eB4jh8idKIvhz3GsBL7g" class="social-btn">
+                  <img src="img/youtube32x32.png" alt="youtube">
+                </a>
+              </li>
+              <li class="social-btn">
+                <a href="https://www.meetup.com/AWS-User-Group-BiH/" class="social-btn">
+                  <img src="img/rsvp32x32.png" alt="meetup">
+                </a>
+              </li>
+            </ul>
+          <!-- </div> -->
         </div>
       </div>
     </div>
