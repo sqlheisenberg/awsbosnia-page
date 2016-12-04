@@ -27,16 +27,6 @@
   margin-bottom: 0 !important;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  display: block;
-  height: 720px;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 720px;
-  width: 90%;
-}
-
 .error {
   color: #c0392b;
 }
@@ -135,10 +125,6 @@
   background-color: #FF9D00;
 }
 
-#about {
-  height: 740px;
-}
-
 .txt-center {
   text-align: center;
 }
@@ -158,6 +144,10 @@
   margin-top: 20px;
 }
 
+.mb20 {
+  margin-bottom: 20px;
+}
+
 .spon-img {
   display: block;
   height: 150px;
@@ -171,9 +161,24 @@
   text-align: center;
 }
 
-.sponsor-name,
-.sponsor-desc {
-  font-weight: normal;
-  color: white;
+.sponsor-name {
+  font-weight: bold;
 }
 
+.sponsor-desc {
+ font-weight: normal;
+}
+
+.sponsor-name,
+.sponsor-desc {
+  color: white;
+  text-align: center;
+}
+
+.carousel-inner > .item > img {
+  display: block;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
