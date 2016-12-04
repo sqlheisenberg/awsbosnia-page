@@ -12,65 +12,64 @@
       <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
     <body>
-      <header class="jumbotron" style="background: url(img/header_new.png) no-repeat center center;/* background-size: 100% 100%; */position: relative;height: 30%;background-size: cover;margin: 0;min-height: 300px;" >
-        <div class="container">
-          <h1>AWS Bosnia User Group</h1>
-          <div class="container" style="position: absolute;bottom:0;padding-left: 0;">
-            <nav class="navbar">
-              <ul class="nav navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#join">Join us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#sponsors">Our sponsors</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+      <div>
+        <div class="container backg">
+          <h1 class="orange-font">AWS Bosnia User Group</h1>
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#join">Join us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sponsors">Our sponsors</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <div class="jumbotron" style="background-color: #C2CEDB;">
+    <div class="jumbotron" class="backg-info">
       <div class="container">
-        <div class="col-md-6" style="float: left; padding-left: 0;">
-          <p class="ptext">Pridružite nam se na sljedećem meetup -u koji će se održati na
-            Fakultetu informacijskih tehnologija u Mostaru.
+        <div class="col-md-6" class="info-left">
+          <p class="ptext">Pridružite nam se na sljedećem meetup -u koji će se
+            održati na Fakultetu informacijskih tehnologija u Mostaru.
           </p>
            <p class="ptext">Očekuju Vas super predavanja i odlično druženje.</p>
-           <p class="ptext">Obavezno napravite <strong>RSVP</strong> na našoj <strong>Meetup</strong> stranici.</p>
+           <p class="ptext">Obavezno napravite <strong>RSVP</strong> na
+            našoj <strong>Meetup</strong> stranici.</p>
         </div>
-        <div class="col-md-6 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" style="float: right; margin-left: auto;margin-right: auto;">
+        <div class="col-md-6 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2
+          rsvp-container">
           <a href="https://www.meetup.com/AWS-User-Group-BiH/events/231601587/">
-            <img src="img/rsvp1.png" alt="rsvp" height="150" width="150" style="display: block;">
+            <img src="img/rsvp1.png" alt="rsvp" class="img-rsvp disp-block">
           </a>
         </div>
       </div>
     </div>
-    <div class="jumbotron" style="background-color: #0f1721;">
+    <div class="jumbotron blog-backg">
       <div id="blog" class="container">
-        <div class="col-md-6" style="float: left; margin-left: auto;margin-right: auto;">
+        <div class="col-md-6 blog-left">
           <div class="col-md-12">
             <a href="https://blog.awsbosnia.com/">
-              <img src="img/blog.jpeg" alt="medium" height="150" width="150" style="display: block;margin-left: auto;margin-right: auto;">
+              <img src="img/blog.jpeg" alt="medium" class="blog-img">
             </a>
-            <div style="margin-top: 15px; text-align: center;">
-              <p style="color: white;">Never miss a story from AWS User group Bosnia</p>
-              <p style="font-weight: normal;color: #a9a7a7;">AWS User group Bosnia is powered by Medium</p>
+            <div class="blog-info">
+              <p class="white-font">Never miss a story from AWS User group Bosnia</p>
+              <p class="pow-med">AWS User group Bosnia is powered by Medium</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6" style="float: right; margin-left: auto;margin-right: auto;">
-           <p style="color: white;">Na našem blogu pronađite detaljne tekstove o prethodnim meetupima grupe kao i planove za buduće aktivnosti.</p>
+        <div class="col-md-6 blog-right-section">
+           <p class="white-font">Na našem blogu pronađite detaljne tekstove o
+            prethodnim meetupima grupe kao i planove za buduće aktivnosti.</p>
         </div>
       </div>
     </div>
-    <div class="jumbotron" style="background-color: #FF9D00;">
-       <div id="about" class="container" style="height: 740px;">
+    <div class="jumbotron about-backg">
+       <div id="about" class="container">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -115,108 +114,114 @@
     </div>
     <div class="jumbotron">
       <div id="join" class="container">
-         <p> Grupu možete podržati i pratiti njen rad na socijalnim mrežama, također pridružite nam se na našem #Slack kanalu kako bi diskutovali o temama koje se tiču AWS-a.</p>
-        <br>
-        <div class="container">
-          <form id="reqForm">
-            <legend style="text-align: center;">AWSUG Bosnia Slack Channel</legend>
-            <!-- <div class="form-group"> -->
-              <div class="col-sm-6 col-sm-offset-3" style="text-align: center;">
-                <input class="form-control" type="email" name="email"
-                  placeholder="hello@example.com" id="emailField">
-                 <button type="submit" class="btn btn-default" style="margin-top: 10px;">Sign in</button>
-              </div>
-              <!-- <div class="col-sm-1 col-sm-offset-2"> -->
-
-              <!-- <div> -->
-            <!-- </div> -->
-            <p class="title result">
-            </p>
+         <p> Grupu možete podržati i pratiti njen rad na socijalnim mrežama,
+          također pridružite nam se na našem #Slack kanalu kako bi diskutovali
+          o temama koje se tiču AWS-a.
+         </p>
+         <br>
+          <div class="container">
+            <form id="reqForm">
+              <legend class="txt-center">AWSUG Bosnia Slack Channel</legend>
+                <div class="col-sm-6 col-sm-offset-3 txt-center">
+                  <input class="form-control" type="email" name="email"
+                    placeholder="hello@example.com" id="emailField">
+                   <button type="submit" class="btn btn-default btn-signin">
+                    Sign in
+                   </button>
+                </div>
+              <p class="title result">
+              </p>
+            </form>
           </div>
-          </form>
-        </div>
-          <!-- <div class="container"> -->
-            <ul id="social-ul">
-              <li class="social-btn">
-                <a href="https://www.facebook.com/groups/awsbosnia/">
-                 <img src="img/facebook_32.png" alt="facebook" >
-                </a>
-              </li>
-              <li class="social-btn">
-                <a href="https://twitter.com/awsbosnia" class="social-btn">
+          <ul id="social-ul">
+            <li class="social-btn">
+              <a href="https://www.facebook.com/groups/awsbosnia/">
+                <img src="img/facebook_32.png" alt="facebook" >
+              </a>
+            </li>
+            <li class="social-btn">
+              <a href="https://twitter.com/awsbosnia" class="social-btn">
                  <img src="img/twitter_32.png" alt="twitter">
-                </a>
-              </li>
-              <li class="social-btn">
-                <a href="https://www.youtube.com/channel/UCG3eB4jh8idKIvhz3GsBL7g" class="social-btn">
-                  <img src="img/youtube32x32.png" alt="youtube">
-                </a>
-              </li>
-              <li class="social-btn">
-                <a href="https://www.meetup.com/AWS-User-Group-BiH/" class="social-btn">
-                  <img src="img/rsvp32x32.png" alt="meetup">
-                </a>
-              </li>
-            </ul>
-          <!-- </div> -->
+              </a>
+            </li>
+            <li class="social-btn">
+              <a href="https://www.youtube.com/channel/UCG3eB4jh8idKIvhz3GsBL7g"
+              class="social-btn">
+                <img src="img/youtube32x32.png" alt="youtube">
+              </a>
+            </li>
+            <li class="social-btn">
+              <a href="https://www.meetup.com/AWS-User-Group-BiH/"
+              class="social-btn">
+                <img src="img/rsvp32x32.png" alt="meetup">
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <footer id="sponsors" style="background-color: #0f1721;color: white; width: 100%; height:50%;">
+    <footer id="sponsors" class="sponsors-sect">
       <div class="container">
-        <p style="margin-top: 20px;">Ako želite da pomognete radu AWS Bosnia User Group pridružite se našim sponzorima, koji pomažu u radu i organizaciji naših meetupa.</p>
+        <p class="mt20">Ako želite da pomognete radu AWS Bosnia User Group
+          pridružite se našim sponzorima, koji pomažu u radu i organizaciji
+          naših meetupa.
+        </p>
         <br>
       <div class="row">
         <div class="col-md-2 col-sm-offset-1">
           <a href="http://www.cloudwebops.com/">
-            <img src="img/cloudwebops.png" alt="Cloudwebops" height="150" width="150" style="display: block;margin-left: auto;margin-right: auto;">
-            </a>
-          <div style="margin-top: 15px;text-align: center;">
-             <a href="http://www.cloudwebops.com/" style="color: white;">CLOUDWEBOPS</a>
-            <label style="font-weight: normal;">AWS Consulting partner</label>
+            <img src="img/cloudwebops.png" alt="Cloudwebops" class="spon-img">
+          </a>
+          <div class="sponsor">
+            <a class="sponsor-name" href="http://www.cloudwebops.com/">CLOUDWEBOPS</a>
+            <label class="sponsor-desc">AWS Consulting partner</label>
           </div>
         </div>
         <div class="col-md-2">
           <a href="http://cloudacademy.com/">
-           <img src="img/cloudacademy.png"  alt="CloudAcademy" height="150" width="150" style="display: block;margin-left: auto;margin-right: auto;">
+           <img src="img/cloudacademy.png" alt="CloudAcademy" class="spon-img">
          </a>
-          <div style="margin-top: 15px;text-align: center;">
-            <a href="http://cloudacademy.com/" style="color: white;">CloudAcademy</a>
-            <label style="font-weight: normal;">Learning sponsor</label>
+          <div class="sponsor">
+            <a class="sponsor-name" href="http://cloudacademy.com/">CloudAcademy</a>
+            <label class="sponsor-desc">Learning sponsor</label>
           </div>
        </div>
        <div class="col-md-2">
          <a href="http://www.atlantbh.com/">
-          <img src="img/atlantbh.png" alt="Atlantbh" height="150" width="150" style="display: block;margin-left: auto;margin-right: auto;">
+          <img src="img/atlantbh.png" alt="Atlantbh" class="spon-img">
         </a>
-         <div style="margin-top: 15px;text-align: center;">
-            <a href="http://www.atlantbh.com/" style="color: white;">Atlantbh</a>
-            <label style="font-weight: normal;">Supporting sponsor</label>
+         <div class="sponsor">
+            <a class="sponsor-name" href="http://www.atlantbh.com/" style="color: white;">Atlantbh
+            </a>
+            <label class="sponsor-desc">Supporting sponsor</label>
          </div>
        </div>
         <div class="col-md-2">
-           <a href="http://www.fit.ba">
-             <img src="img/fit.png" alt="Fit" height="150" width="150" style="display: block;margin-left: auto;margin-right: auto;">
-           </a>
-          <div style="margin-top: 15px; text-align: center; width: 90%;">
-            <a href="http://www.fit.ba" style="color: white;">Faculty of information technology</a>
-            <label style="font-weight: normal;">Meetup host</label>
+          <a href="http://www.fit.ba">
+            <img src="img/fit.png" alt="Fit" class="spon-img">
+          </a>
+          <div class="sponsor" style="width: 90%;">
+            <a class="sponsor-name" href="http://www.fit.ba">
+              Faculty of information technology
+            </a>
+            <label class="sponsor-desc">Meetup host</label>
           </div>
         </div>
         <div class="col-md-2">
            <a href="http://www.wizardhealth.co/">
-            <img src="img/wizardhealth.png" alt="Fit" height="150" width="150" style="display: block;margin-left: auto;margin-right: auto;">
+            <img src="img/wizardhealth.png" alt="wizardhealth" class="spon-img">
           </a>
-          <div style="margin-top: 15px; text-align: center;">
-            <a href="http://www.wizardhealth.co/" style="color: white;">WizardHealth</a>
-            <label style="font-weight: normal;">Supporting sponsor</label>
+          <div class="sponsor">
+            <a class="sponsor-name" href="http://www.wizardhealth.co/">WizardHealth</a>
+            <label class="sponsor-desc">Supporting sponsor</label>
           </div>
         </div>
-
       </div>
       <br>
       <div class="container">
-        <p style="text-align: center;">Za sva pitanja, informacije i pomoć, možete se javiti na email: <a href="mailto:awsugbih@gmail.com" style="color: white;">awsugbih@gmail.com</a></p>
+        <p class="text-center">Za sva pitanja, informacije i pomoć,
+          možete se javiti na email: <a href="mailto:awsugbih@gmail.com" class="white-font">awsugbih@gmail.com</a>
+        </p>
       </div>
     </footer>
     </div>

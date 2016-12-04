@@ -1,8 +1,9 @@
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-.navbar {
-  margin: 0;
+.backg {
+  background: url('../img/header_new.png') no-repeat right center;
+}
+
+.orange-font {
+  color: #e47911;
 }
 
 .nav a {
@@ -14,7 +15,7 @@
 .nav > li > a:hover,
 .nav > li > a:focus {
   background-color: #e47911;
-  color: white;
+  color: black;
 }
 
 .ptext {
@@ -28,12 +29,12 @@
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  width: 90%;
-  height: 720px;
-  max-height: 720px;
   display: block;
+  height: 720px;
   margin-left: auto;
   margin-right: auto;
+  max-height: 720px;
+  width: 90%;
 }
 
 .error {
@@ -46,19 +47,133 @@
 
 #social-ul {
   list-style: none;
-  padding-left: 0;
-  text-align: center;
-  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  padding-left: 0;
+  text-align: center;
   width: 60%;
 }
 
 .social-btn {
   display: inline-block;
-  list-style: none;
   height: 64px;
-  width: 64px;
+  list-style: none;
   margin-right: 10px;
   margin-top: 10px;
+  width: 64px;
 }
+
+.backg-info {
+  background-color: #C2CEDB;
+}
+
+.info-left {
+  float: left;
+  padding-left: 0;
+}
+
+.navbar-nav {
+  float: left;
+  margin: 7.5px -15px;
+}
+
+.rsvp-container {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disp-block {
+  display: block;
+}
+
+.img-rsvp {
+  height: 150px;
+  width: 150px;
+}
+
+.blog-backg {
+  background-color: #0f1721;
+}
+
+.blog-left {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.white-font {
+  color: white;
+}
+
+.pow-med {
+  font-weight: normal;
+  color: #a9a7a7;
+}
+
+.blog-right-section {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-info {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.about-backg {
+  background-color: #FF9D00;
+}
+
+#about {
+  height: 740px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.btn-signin {
+  margin-top: 10px;
+}
+
+.sponsors-sect {
+  background-color: #0f1721;
+  color: white;
+  height: 50%;
+  width: 100%;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.spon-img {
+  display: block;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.sponsor {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.sponsor-name,
+.sponsor-desc {
+  font-weight: normal;
+  color: white;
+}
+
