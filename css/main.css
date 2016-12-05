@@ -1,5 +1,8 @@
 .backg {
-  background: url('../img/poweredbyaws.png') no-repeat right center;
+  /*background: url('../img/header.png') no-repeat right center;
+  background-size: 100% 100%;*/
+  /*background: url('../img/header.png') center center;
+  background-size: cover;*/
 }
 
 .orange-font {
@@ -79,8 +82,8 @@
 }
 
 .img-rsvp {
-  height: 150px;
-  width: 150px;
+  /*height: 100px;*/
+  width: 100px;
 }
 
 .blog-backg {
@@ -129,12 +132,15 @@
   text-align: center;
 }
 
+.join-backg {
+  background-color: #0f1721;
+}
+
 .btn-signin {
   margin-top: 10px;
 }
 
 .sponsors-sect {
-  background-color: #0f1721;
   color: white;
   height: 50%;
   width: 100%;
@@ -156,6 +162,12 @@
   width: 150px;
 }
 
+.spon-img:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
 .sponsor {
   margin-top: 15px;
   text-align: center;
@@ -171,14 +183,22 @@
 
 .sponsor-name,
 .sponsor-desc {
-  color: white;
+  color: black;
   text-align: center;
+}
+
+.black {
+  color: #333;
 }
 
 .carousel-inner > .item > img {
   display: block;
-  height: 60%;
+  height: 40em;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 80%;
+}
+
+.carousel-inner > .item > img:hover {
+  border: 1px solid #000000;
 }
