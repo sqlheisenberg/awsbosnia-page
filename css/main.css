@@ -1,9 +1,9 @@
 .backg {
-  background: url('../img/header_new.png') no-repeat right center;
+  background: url('../img/poweredbyaws.png') no-repeat right center;
 }
 
 .orange-font {
-  color: #e47911;
+  color: #F7981D;
 }
 
 .nav a {
@@ -122,7 +122,7 @@
 }
 
 .about-backg {
-  background-color: #FF9D00;
+  background-color: #F7981D;
 }
 
 .txt-center {
