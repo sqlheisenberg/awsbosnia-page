@@ -1,0 +1,184 @@
+.backg {
+  background: url('../img/poweredbyaws.png') no-repeat right center;
+}
+
+.orange-font {
+  color: #F7981D;
+}
+
+.nav a {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #e47911;
+  color: black;
+}
+
+.ptext {
+  color: black;
+  font-size: 18px;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.succeed {
+  color: #2c3e50;
+}
+
+#social-ul {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-left: 0;
+  text-align: center;
+  width: 60%;
+}
+
+.social-btn {
+  display: inline-block;
+  height: 64px;
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 64px;
+}
+
+.backg-info {
+  background-color: #C2CEDB;
+}
+
+.info-left {
+  float: left;
+  padding-left: 0;
+}
+
+.navbar-nav {
+  float: left;
+  margin: 7.5px -15px;
+}
+
+.rsvp-container {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disp-block {
+  display: block;
+}
+
+.img-rsvp {
+  height: 150px;
+  width: 150px;
+}
+
+.blog-backg {
+  background-color: #0f1721;
+}
+
+.blog-left {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.white-font {
+  color: white;
+}
+
+.pow-med {
+  font-weight: normal;
+  color: #a9a7a7;
+}
+
+.blog-right-section {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-info {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.about-backg {
+  background-color: #F7981D;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.btn-signin {
+  margin-top: 10px;
+}
+
+.sponsors-sect {
+  background-color: #0f1721;
+  color: white;
+  height: 50%;
+  width: 100%;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.spon-img {
+  display: block;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.sponsor {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.sponsor-name {
+  font-weight: bold;
+}
+
+.sponsor-desc {
+ font-weight: normal;
+}
+
+.sponsor-name,
+.sponsor-desc {
+  color: white;
+  text-align: center;
+}
+
+.carousel-inner > .item > img {
+  display: block;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
