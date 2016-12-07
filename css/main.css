@@ -288,8 +288,24 @@
   width: 80%;
 }
 
-.carousel-inner > .item > img:hover {
-  border: 1px solid #000000;
+.aws1 {
+  background:url('../img/pic1.jpg') center center;
+  background-size: cover;
+}
+
+.aws2 {
+  background:url('../img/pic2.jpg') center center;
+  background-size: cover;
+}
+
+.aws3 {
+  background:url('../img/pic3.jpg') center center;
+  background-size: cover;
+}
+
+.aws4 {
+  background:url('../img/pic4.jpg') center center;
+  background-size: cover;
 }
 
 .pfont {
