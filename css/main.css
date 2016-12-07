@@ -175,16 +175,17 @@
 }
 
 .blog-img-cont {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
   height: 100px;
 }
 
 .blog-img {
+  display: block;
   background: url('../img/med1.png') no-repeat center center;
   background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 100px;
 }
 
 .blog-img:hover {
@@ -287,8 +288,24 @@
   width: 80%;
 }
 
-.carousel-inner > .item > img:hover {
-  border: 1px solid #000000;
+.aws1 {
+  background:url('../img/pic1.jpg') center center;
+  background-size: cover;
+}
+
+.aws2 {
+  background:url('../img/pic2.jpg') center center;
+  background-size: cover;
+}
+
+.aws3 {
+  background:url('../img/pic3.jpg') center center;
+  background-size: cover;
+}
+
+.aws4 {
+  background:url('../img/pic4.jpg') center center;
+  background-size: cover;
 }
 
 .pfont {
