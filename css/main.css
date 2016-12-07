@@ -128,8 +128,14 @@
   margin-right: auto;
 }
 
-.blog-img {
+.blog-img-cont {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.blog-img {
   margin-left: auto;
   margin-right: auto;
   width: 150px;
@@ -151,7 +157,7 @@
 }
 
 .blog-info {
-  margin-top: 15px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -232,4 +238,12 @@
 
 .carousel-inner > .item > img:hover {
   border: 1px solid #000000;
+}
+
+.pfont {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.42857143;
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
 }
