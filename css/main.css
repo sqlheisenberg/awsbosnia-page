@@ -71,23 +71,69 @@
   color: #2c3e50;
 }
 
+.social-wrapp {
+  width: 300px;
+  margin: 0 auto;
+}
+
 #social-ul {
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
   padding-left: 0;
   text-align: center;
-  width: 60%;
+}
+
+#social-ul > li {
+  float: left;
+  margin-left: 5px;
+}
+
+#social-ul > li a {
+  display: block;
 }
 
 .social-btn {
-  display: inline-block;
   height: 64px;
-  list-style: none;
-  margin-right: 10px;
-  margin-top: 10px;
   width: 64px;
+}
+
+.btn-fcbk {
+  background: url('../img/fb1.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.btn-fcbk:hover {
+  background: url('../img/fb2.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.btn-twt {
+  background: url('../img/tw1.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.btn-twt:hover {
+  background: url('../img/tw2.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.btn-yt {
+  background: url('../img/yt1.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.btn-yt:hover {
+  background: url('../img/yt2.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.btn-mtp {
+  background: url('../img/mu1.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.btn-mtp:hover {
+  background: url('../img/mu2.png') no-repeat center center;
+  background-size: 100% 100%;
 }
 
 .backg-info {
@@ -132,13 +178,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 300px;
+  height: 100px;
 }
 
 .blog-img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 150px;
+  background: url('../img/med1.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.blog-img:hover {
+  background: url('../img/med2.png') no-repeat center center;
+  background-size: 100% 100%;
 }
 
 .white-font {
