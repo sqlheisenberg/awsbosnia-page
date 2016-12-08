@@ -15,7 +15,7 @@
 
 .logo-pos {
   position: absolute;
-  bottom: 3em;
+  bottom: 10px;
   right: 5px;
 }
 
@@ -31,7 +31,7 @@
 
 .nav-wrapp {
   position: absolute;
-  bottom: 3em;
+  bottom: 10px;
  }
 
  .cus-header {
@@ -334,4 +334,12 @@
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
+}
+
+.white-backg {
+  background-color: white;
+}
+
+.orange-backg {
+  background-color: #F7981D;
 }
