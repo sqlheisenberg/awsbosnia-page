@@ -36,7 +36,6 @@
 
  .cus-header {
   font-weight: bold;
-  font-size: 54px;
  }
 
 .orange-font {
@@ -98,41 +97,57 @@
 }
 
 .btn-fcbk {
+  background: url('../img/fb2.png') no-repeat center center;
+  background-size: 100% 100%;
+ }
+.btn-fcbk:link {
   background: url('../img/fb1.png') no-repeat center center;
   background-size: 100% 100%;
 }
-
-.btn-fcbk:hover {
+.btn-fcbk:hover,
+.btn-fcbk:focus {
   background: url('../img/fb2.png') no-repeat center center;
   background-size: 100% 100%;
 }
 
 .btn-twt {
+  background: url('../img/tw2.png') no-repeat center center;
+  background-size: 100% 100%;
+ }
+.btn-twt:link {
   background: url('../img/tw1.png') no-repeat center center;
   background-size: 100% 100%;
 }
-
-.btn-twt:hover {
+.btn-twt:hover,
+.btn-twt:focus {
   background: url('../img/tw2.png') no-repeat center center;
   background-size: 100% 100%;
 }
 
 .btn-yt {
+  background: url('../img/yt2.png') no-repeat center center;
+  background-size: 100% 100%;
+ }
+.btn-yt:link {
   background: url('../img/yt1.png') no-repeat center center;
   background-size: 100% 100%;
 }
-
-.btn-yt:hover {
+.btn-yt:hover,
+.btn-yt:focus {
   background: url('../img/yt2.png') no-repeat center center;
   background-size: 100% 100%;
 }
 
 .btn-mtp {
+  background: url('../img/mu2.png') no-repeat center center;
+  background-size: 100% 100%;
+ }
+.btn-mtp:link {
   background: url('../img/mu1.png') no-repeat center center;
   background-size: 100% 100%;
 }
-
-.btn-mtp:hover {
+.btn-mtp:hover,
+.btn-mtp:focus {
   background: url('../img/mu2.png') no-repeat center center;
   background-size: 100% 100%;
 }
@@ -180,16 +195,20 @@
 }
 
 .blog-img {
-  display: block;
-  background: url('../img/med1.png') no-repeat center center;
   background-size: 100% 100%;
+  background: url('../img/med2.png') no-repeat center center;
+  display: block;
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-  height: 70px;
+ }
+.blog-img:link {
+  background: url('../img/med1.png') no-repeat center center;
+  background-size: 100% 100%;
 }
-
-.blog-img:hover {
+.blog-img:hover,
+.blog-img:focus {
   background: url('../img/med2.png') no-repeat center center;
   background-size: 100% 100%;
 }
