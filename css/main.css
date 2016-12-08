@@ -1,15 +1,16 @@
 .backg {
-  background: url('../img/header_final1.jpg') no-repeat right center;
-  background-size: 2500px 700px, 100%;
+  background-color: #ff9d01;
+  background-size: 100%, 100%;
+  background: url('../img/header_final1.jpg') no-repeat center center;
   height: 25em;
   width: 100%;
 }
 
 .logo {
+  /*background-size: 100% 100%;
   background: url('../img/powered_by_aws_white.png') no-repeat right center;
-  background-size: 100% 100%;
-  width: 300px;
   height: 150px;
+  width: 300px;*/
 }
 
 .logo-pos {
@@ -175,7 +176,7 @@
 }
 
 .blog-img-cont {
-  height: 100px;
+  /*height: 100px;*/
 }
 
 .blog-img {
@@ -185,7 +186,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-  height: 100px;
+  height: 70px;
 }
 
 .blog-img:hover {
