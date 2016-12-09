@@ -11,7 +11,7 @@
 /* custom */
 @media only screen and (min-width : 320px) {
   #navigation-list {
-    background-color: #F7981D;
+    background-color: #ff9d01;
   }
 
   .logo {
@@ -68,7 +68,7 @@
 
 .logo-pos {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   right: 5px;
   z-index: 2;
 }
@@ -107,6 +107,7 @@
 .nav > li > a:focus {
   background-color: white;
   color: #e47911;
+  border-radius: 5px;
 }
 
 .ptext {
@@ -208,7 +209,8 @@
 }
 
 .backg-info {
-  background-color: #C2CEDB;
+  background-color: #f4f4f4;
+  padding: 55px 0;
 }
 
 .info-left {
@@ -219,6 +221,11 @@
 .navbar-nav {
   float: left;
   margin: 7.5px -15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .rsvp-container {
@@ -237,6 +244,10 @@
 
 .blog-backg {
   background-color: #0f1721;
+}
+
+#blog {
+  padding: 70px 0;
 }
 
 .blog-left {
@@ -289,7 +300,8 @@
 }
 
 .about-backg {
-  background-color: #F7981D;
+  /*background-color: #F7981D;*/
+  background-color: #ff9d01;
 }
 
 .txt-center {
