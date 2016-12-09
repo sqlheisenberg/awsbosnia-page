@@ -6,13 +6,13 @@ $(document).ready(function() {
     };
     $.ajax({
       type: "POST",
-      url: "https://956uxyx6ej.execute-api.ap-northeast-1.amazonaws.com/prod/slack",
+      url: "",
       data: JSON.stringify(pl),
       contentType: "application/json",
       dataType: "json",
       crossDomain: true,
       headers: {
-        'x-api-key': "kMupZ06nx12GSGSM36Hpc7e984bHBvBDwAlAIWY7"
+        'x-api-key': ""
       }
     }).done(function(data) {
       if (data.result) {
