@@ -1,16 +1,33 @@
 .backg {
   background-color: #ff9d01;
-  background-size: 100%, 100%;
+  background-size: 100% 100%;
   background: url('../img/header_final1.jpg') no-repeat center center;
   height: 25em;
   width: 100%;
 }
 
+/* xs */
 .logo {
-  /*background-size: 100% 100%;
-  background: url('../img/powered_by_aws_white.png') no-repeat right center;
-  height: 150px;
-  width: 300px;*/
+  display:block;
+  width: auto;
+  height: 90px;
+}/* sm */
+@media (min-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+}
+/* md */
+@media (min-width: 992px) {
+  .logo {
+    width: 200px;
+  }
+}
+/* lg */
+@media (min-width: 1200px) {
+  .logo {
+    width: 200px;
+  }
 }
 
 .logo-pos {
