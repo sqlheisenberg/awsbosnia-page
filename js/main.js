@@ -6,7 +6,7 @@ $(document).ready(function() {
     };
     $.ajax({
       type: "POST",
-      url: "https://552scvp8h6.execute-api.us-east-1.amazonaws.com/prod/slack",
+      url: "https://chbn752002.execute-api.us-east-1.amazonaws.com/prod",
       data: JSON.stringify(pl),
       contentType: "application/json",
       dataType: "json",
