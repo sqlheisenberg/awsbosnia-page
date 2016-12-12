@@ -551,3 +551,16 @@
 .orange-backg {
   background-color: #F7981D;
 }
+
+.org-button {
+  background: #F7981D;
+  color: white;
+  border: 1px solid #F7981D;
+}
+
+.org-button:hover {
+  background: white;
+  color: #F7981D;
+  border: 1px solid #F7981D;
+}
+
